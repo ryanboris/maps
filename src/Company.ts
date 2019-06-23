@@ -1,7 +1,7 @@
 import faker from 'faker';
 import { MapItem } from './CustomMap';
 
-export class Company {
+export class Company implements MapItem {
   companyName: string;
   catchPhrase: string;
   location: {
